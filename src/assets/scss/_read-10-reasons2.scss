@@ -1,0 +1,55 @@
+.letrs-red {
+    color: #c2151c;
+}
+
+h1 {
+    // color: #c2151c;
+    font-size: 48px;
+}
+
+.orange-body {
+    background: #ff6d10;
+}
+
+.orange-body p {
+    color: #ffffff;
+}
+
+h2 {
+    margin: 0;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.red-body {
+    background: #c2151c;
+}
+
+.red-body h3 {
+    text-align: center;
+    margin: 0 1em;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.bike-bg {
+    background-image: url('https://go.voyagersopris.com/l/207592/2019-02-01/8c51v/207592/89035/bike_bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.letrs-logo {
+    width: 120px !important;
+}
+
+.missing {
+    font-weight: bold;
+    color: #c2151c;
+}
+
+@media only screen and (max-width: 616px) {
+    h2 {
+        font-size: 24px;
+    }
+}

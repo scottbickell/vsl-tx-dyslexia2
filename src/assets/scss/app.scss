@@ -1,0 +1,213 @@
+@import 'settings';
+@import 'foundation-emails';
+// @import 'watch-video';
+@import 'request-demo';
+// @import 'read-10-reasons2';
+@import 'footer';
+
+
+a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+}
+
+.preview-subject {
+    font-family: monospace;
+    border: 2px dashed orange;
+    padding: 10px;
+    background: #ffffff;
+}
+
+.no-bottom-margin {
+    margin-bottom: 0;
+}
+
+.signature p {
+    font-size: 14px;
+}
+
+.vsl-logo {
+    max-width: 300px;
+}
+
+.light-gray-bg {
+    background: #f3f3f3;
+}
+
+p.author {
+    color: #666666;
+    font-style: italic;
+}
+
+.author-img {
+    margin: 0 0 10px 20px;
+}
+
+p.view-online {
+    background: $body-background;
+    color: #999999;
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.view-online a {
+    font-weight: normal;
+    text-decoration: underline;
+    color: #999999;
+}
+
+td {
+    hyphens: none;
+    -moz-hyphens: none;
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+}
+
+a,
+a:visited,
+a:hover {
+    text-decoration: underline;
+    font-weight: normal;
+    color: #005587;
+}
+
+table.button table td a {
+    text-align: center;
+}
+
+table.button table td {
+    text-align: center !important;
+}
+
+.no-bottom-padding {
+    padding-bottom: 0 !important;
+}
+
+sup {
+    font-size: 12px;
+    line-height: 12px;
+    display: inline-block;
+    margin-left: 3px;
+}
+
+// <br class="hide-hardbreak">
+
+.dark-blue-bg {
+    background: #005587;
+}
+
+.light-blue-bg {
+    background: #009bdf;
+}
+
+.yellow-bg {
+    background: #ffbf3d;
+}
+
+.light-purple-bg {
+    background: #86339a;
+}
+
+.dark-purple-bg {
+    background: #522d6d;
+}
+
+.dark-dark-purple-bg {
+    background: #262261;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i');
+
+@media only screen {
+    html {
+        min-height: 100%;
+        background: #f3f3f3
+    }
+
+        td,
+        a,
+        h1,
+        h2,
+        h3,
+        h4,
+        p,
+        li,
+        div,
+        span {
+            font-family: 'Open Sans', sans-serif !important;
+        }
+    }
+
+p.intro-cta {
+    font-size: 13px;
+    text-align: right;
+    margin-bottom: 0;
+}
+
+table.button {
+    margin-bottom: 0px !important;
+}
+
+
+th.large-6.address-cell {
+    padding-left: 16px;
+}
+
+@media only screen and (max-width: 616px) {
+    .social-media img {
+        width: 42px !important;
+        height: 42px !important;
+        margin: 0 5px;
+    }
+
+    .large-float-right {
+        display: inline;
+        float: right;
+    }
+
+    .hide-hardbreak {
+        display: none;
+    }
+
+    .intro-cta {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .demo-copy h2 {
+        margin: 1em .5em .5em .5em;
+    }
+
+    .footer p {
+        text-align: center;
+    }
+
+    .yellow-full-width p {
+        text-align: center;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .author-img {
+        max-width: 120px;
+        margin: 0 0 10px 10px;
+    }
+    .product-type-icon {
+        max-width: 80px !important;
+    }
+    .vsl-logo {
+        max-width: 154px;
+    }
+    .rep-photo {
+        width: 96px !important;
+    }
+    h1 {
+        text-align: center;
+    }
+
+}

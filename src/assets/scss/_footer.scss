@@ -1,0 +1,50 @@
+.footer {
+    background: #4a4f55;
+}
+
+.footer p {
+    color: #ffffff;
+    font-size: 10px;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.footer a:hover {
+    color: #ffffff;
+}
+
+.unsubscribe {
+    background: $body-background;
+}
+
+.unsubscribe p {
+    font-size: 10px;
+}
+
+.unsubscribe a {
+    color: #000000;
+    font-weight: normal;
+}
+
+.unsubscribe a:hover {
+    color: #000000;
+}
+
+.signature img {
+    max-width: 200px;
+}
+
+.social-media {
+    background: $body-background;
+}
+
+.social-media img {
+    display: inline;
+    width: 32px;
+    height: 32px;
+    margin: 0 2px;
+}
